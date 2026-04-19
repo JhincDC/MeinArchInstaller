@@ -3,13 +3,13 @@
 echo "Enjoy :)"
 
 #Next code is for personal Layout, but I'll do it manually
-#wget https://github.com/JhincDC/PersonalSetup/raw/refs/heads/main/personalSetup_part_aa
-#wget https://github.com/JhincDC/PersonalSetup/raw/refs/heads/main/personalSetup_part_ab
-#wget https://github.com/JhincDC/PersonalSetup/raw/refs/heads/main/personalSetup_part_ac
-#cat personalSetup_part_* > personalSetup.knsv
-#konsave -i personalSetup.knsv
-#sleep 1
-#konsave -a personalSetup
+wget https://github.com/JhincDC/PersonalSetup/raw/refs/heads/main/personalSetup_part_aa
+wget https://github.com/JhincDC/PersonalSetup/raw/refs/heads/main/personalSetup_part_ab
+wget https://github.com/JhincDC/PersonalSetup/raw/refs/heads/main/personalSetup_part_ac
+cat personalSetup_part_* > personalSetup.knsv
+konsave -i personalSetup.knsv
+sleep 1
+konsave -a personalSetup
 
 echo "About ZRAM and SWAPFILE"
 
