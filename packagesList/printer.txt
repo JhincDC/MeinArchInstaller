@@ -1,0 +1,7 @@
+cups
+cups-pdf
+avahi
+nss-mdns
+sane
+simple-scan
+system-config-printer

@@ -1,0 +1,7 @@
+ntfs-3g
+dosfstools
+btrfs-progs
+exfatprogs
+fuse2
+snapper
+gvfs
