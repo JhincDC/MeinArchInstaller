@@ -1,7 +1,7 @@
 # MeinArchInstaller
 So, just documentation on how this was made.
 
-Based on another project, [my personal installer from another account btw](https://github.com/Bisanota/MeinArchInstaller)
+Based on another project, a [similar project](https://github.com/JhincDC/PersonalSetup) in fact, based, of course, on another project, [my personal installer from another account btw](https://github.com/Bisanota/MeinArchInstaller)
 
 Just scripts that allows a more easy installation, with basics needs.
 
