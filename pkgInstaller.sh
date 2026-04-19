@@ -15,7 +15,7 @@ for packageTXT in $(ls $pkgDirectory/*.txt); do
     tryAgainMax=5
 
     installCommand() {
-        sudo pacman -S --needed $(cat $packageTXT)
+        sudo pacman -Sy --needed --noconfirm $(cat $packageTXT)
     }
     sleep 1
     loadingFunction
