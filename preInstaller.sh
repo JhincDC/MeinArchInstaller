@@ -25,7 +25,8 @@ main(){
 
 echo "Remember. All of this is for personal uses, so, some packages is not here due doesn't match with my current hardware"
 
-while true; dosuccesfullInstallation=1
+while true; do
+succesfullInstallation=1
 clear
     echo "Partition Drives"
     echo "This part is manual"
