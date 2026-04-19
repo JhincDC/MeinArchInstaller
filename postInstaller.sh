@@ -83,7 +83,7 @@ sudo tee "$POLICY_DIR/brave_policies.json" > /dev/null <<EOF
   "BraveWalletDisabled": true,
   "BraveVPNDisabled": true,
   "BraveAIChatEnabled": false,
-  "BraveStatsPingEnabled": falskgBasee
+  "BraveStatsPingEnabled": false
 }
 EOF
 
