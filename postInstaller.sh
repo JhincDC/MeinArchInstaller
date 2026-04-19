@@ -15,7 +15,7 @@ tryCatch() {
 }
 
 installPKGs() {
-    tryCatch "bash pkgInstaller.sh"
+    tryCatch "bash pkgInstaller.sh ./pkgDirectory"
 }
 
 installDE() {
