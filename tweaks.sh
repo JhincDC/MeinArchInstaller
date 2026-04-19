@@ -14,16 +14,16 @@ echo "Enjoy :)"
 echo "About ZRAM and SWAPFILE"
 
 sudo pacman -Sy --needed --noconfirm zram-generator
-sudo echo "[zram0]
+echo "[zram0]
 zram-size = ram * 2
 compression-algorithm = zstd
 swap-priority = 80
-fs-type = swap" > /etc/systemd/zram-generator.conf
+fs-type = swap" | sudo tee /etc/systemd/zram-generator.conf
 sudo fallocate -l 4G /swapfile
 sudo chmod 600 /swapfile
 sudo swapon /swapfile
 sudo mkswap /swapfile
-sudo echo "/swapfile swap swap defaults 0 0" >> /etc/fstab
+echo "/swapfile swap swap defaults 0 0" | sudo tee -a /etc/fstab
 
 # I'll try to avoid Clip Studio Paint and FL Studio
 #git clone https://github.com/Bisanota/WineConfigs.git
