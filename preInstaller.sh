@@ -49,6 +49,7 @@ genfstab -U /mnt >> /mnt/etc/fstab
 cp ./installer.sh /mnt
 cp ./pkgInstaller.sh /mnt
 cp -r ./pkgBase /mnt
+cp -r ./coolFunctions /mnt 
 runningInsideChroot
 
 if [ "$succesfullInstallation" != 1 ]; then
@@ -62,6 +63,7 @@ echo "Finishing!"
 rm /mnt/installer.sh
 rm /mnt/pkgInstaller.sh
 rm -r /mnt/pkgBase
+rm -r /mnt/coolFunctions
 loadingFunction
 umount -R /mnt
 
