@@ -136,7 +136,7 @@ dialog --backtitle "$backtitleDialog" \
         --title "HOW TO USE THIS" \
         --msgbox "Just write the direction where the file region are, based on the two windows above text region.\nDO NOT PRESS OK IF YOU HAVE NOT SELECTED YOUR REGION\n\nPress ENTER if you are sure" 0 0
 
-selectRegions
+selectRegion
 
 ln -sf ${region} /etc/localtime
 hwclock --systohc
