@@ -5,7 +5,6 @@ gamemode
 lib32-gamemode
 jdk21-openjdk
 dnsmasq
-wireless-tools
 zip
 unzip
 p7zip
