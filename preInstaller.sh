@@ -46,9 +46,9 @@ pacman -Sy --noconfirm archlinux-keyring
 pacstrap -K /mnt $packages
 genfstab -U /mnt >> /mnt/etc/fstab
 
-cp installer.sh /mnt
-cp pkgInstaller.sh /mnt
-cp -r pkgBase /mnt
+cp ./installer.sh /mnt
+cp ./pkgInstaller.sh /mnt
+cp -r ./pkgBase /mnt
 runningInsideChroot
 
 if [ "$succesfullInstallation" != 1 ]; then
