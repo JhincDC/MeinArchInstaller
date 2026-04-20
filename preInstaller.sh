@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Variables
-core="base linux linux-firmware linux-headers grub efibootmgr networkmanager base-devel bash-completion os-prober"
+core="base linux linux-firmware linux-headers grub efibootmgr networkmanager base-devel bash-completion os-prober net-tools"
 packages="$core"
 succesfullInstallation=0
 
